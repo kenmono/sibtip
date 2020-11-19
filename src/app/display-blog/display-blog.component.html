@@ -1,0 +1,13 @@
+<div class = "content">
+  
+  <div class="head"> 
+    <div class="overlay"  (click) = selectBlog(blog)>
+      {{blog.title}}
+    </div>
+    <div><button class= "delete" (click)= 'del()'>x</button></div>
+  </div>
+  <div class ="body">
+      {{blog.name}} | {{blog.date}}
+  </div>
+
+</div>

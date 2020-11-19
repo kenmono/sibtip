@@ -1,0 +1,19 @@
+<div class = "content">
+  
+  <div class="head"> 
+     {{blog.title}}
+  </div>
+
+  <div class ="body">
+    {{blog.msg}} 
+      <div class ="tail">
+        {{blog.name}} | {{blog.date}}
+      </div> 
+  </div>
+
+</div>
+<div class="container" *ngFor ="let comment of comments; index as i">
+    <app-display-comment [comment]="comment"></app-display-comment>
+</div>
+
+<div><app-add-comment></app-add-comment></div> 

@@ -1,0 +1,55 @@
+div {
+
+}
+nav {
+  background-color: #3e1357;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 0px;
+  padding: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: #eceff1;
+  font-size: 25px;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+.header {
+  text-decoration: underline overline;
+  display: flex;
+  justify-content: center;
+  color: #eceff1;
+  font-size: 30px;
+  background-image: linear-gradient(bottom, rgb(46, 16, 80) 0%, #a33131 84%);
+  background-image: -o-linear-gradient(bottom, rgb(46, 16, 80) 0%, #a33131 84%);
+  background-image: -moz-linear-gradient(bottom, rgb(46, 16, 80) 0%, #a33131 84%);
+  background-image: -webkit-linear-gradient(bottom, rgb(46, 16, 80) 0%, #22094b 84%);
+  background-image: -ms-linear-gradient(bottom, rgb(46, 16, 80) 0%, #a33131 84%);
+}
+.body {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.content {
+  background-image: linear-gradient(bottom, rgb(105,173,212) 0%, #3e1357 84%);
+  background-image: -o-linear-gradient(bottom, rgb(105,173,212) 0%, #3e1357 84%);
+  background-image: -moz-linear-gradient(bottom, rgb(105,173,212) 0%, #3e1357 84%);
+  background-image: -webkit-linear-gradient(bottom, rgb(105,173,212) 0%, #33054e 84%);
+  background-image: -ms-linear-gradient(bottom, rgb(105,173,212) 0%, #3e1357 84%);
+  width: 100%;
+  background-position: fixed;
+}
+.active-link {
+  background-color: #805288;
+  color: #dcdada;
+  border-radius: 10px;
+  font-size: 30px;
+}
+.logo{
+  margin-top: 41px;
+  margin-right: 5px;
+}

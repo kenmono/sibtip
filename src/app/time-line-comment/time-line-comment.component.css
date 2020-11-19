@@ -1,0 +1,32 @@
+.head {
+  color: #eceff1;
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+.body {
+  padding: 20px 10% 20px 10%;
+  color: #701483;
+  font-size: 25px;
+  background-color: rgb(255, 255, 255);
+  align-items: flex-start;
+  border-radius: 10px;
+  border: 5px solid #701483;
+  margin-bottom: 20px;
+}
+.text {
+  margin: 2px;
+  overflow-wrap: break-word;
+}
+
+.tail {
+  color: gray;
+  font-size: 18px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  max-width: 90%;
+  margin: auto;
+}

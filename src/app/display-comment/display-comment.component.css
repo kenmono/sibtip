@@ -1,0 +1,23 @@
+.content{
+  background-color: rgb(243, 233, 250);
+  border: 2px solid purple;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+.head{
+  display: flex;
+  justify-content: space-between;
+}
+.body{
+  font-size: 20px;
+}
+.delete{
+  background-color: #3e1357;
+  color: #eceff1;
+  border-radius: 6px;
+}

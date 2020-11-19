@@ -1,0 +1,12 @@
+<div class ="formAll">
+  <form [formGroup]="form">
+
+    <label>Comment</label><br>
+    <textarea rows="5" cols="50" formControlName="msg"></textarea><br>
+
+    <label>Name</label><br>
+    <input type="text" formControlName="name"><br>
+    
+    <input class="button" type="submit" value="Add comment" (click)="onComment()">
+  </form>
+</div>

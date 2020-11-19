@@ -1,0 +1,14 @@
+.formAll{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  padding-top: 50px;
+}
+.button{
+  font-size: 20px;
+  background-color: rgb(160, 121, 204);
+  border-radius: 7px;
+  margin-top: 10px;
+}

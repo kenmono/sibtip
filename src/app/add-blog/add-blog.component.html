@@ -1,0 +1,14 @@
+<div class = "formAll">
+  <form [formGroup]="form">
+    <label>Title</label><br>
+    <textarea rows="2" cols="50" maxlength="200" type="text" placeholder="add your title"   formControlName="title"></textarea><br>
+
+    <label>Message</label><br>
+    <textarea rows="8" cols="50" formControlName="msg"></textarea><br>
+
+    <label>Name</label><br>
+    <textarea rows="1" type="text" formControlName="name"></textarea><br> 
+    
+    <input class="button" type="submit" value="Post" (click)="onBlog()">
+  </form>
+</div>
